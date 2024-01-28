@@ -1,15 +1,13 @@
-package io.manish.spring.basics.movierecommendersystem.lession4;
+package io.manish.spring.basics.movierecommendersystem.lession5;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
-
-@Component
 @Primary
-public class ContentBasedFilter implements Filter {
-
+@Component
+public class CollaborativeFilter implements Filter {
     @Override
     public String[] getRecommendations(String movie) {
         //logic of content based filter
-        return new String[] {"Happy Feet", "Ice Age", "Shark Tale"};
+        return new String[] {"Lession 2 Loose coupling","Happy Feet", "Ice Age", "Shark Tale"};
     }
 }

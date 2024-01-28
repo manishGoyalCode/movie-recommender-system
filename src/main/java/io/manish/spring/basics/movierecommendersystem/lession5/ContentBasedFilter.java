@@ -1,10 +1,9 @@
-package io.manish.spring.basics.movierecommendersystem.lession4;
+package io.manish.spring.basics.movierecommendersystem.lession5;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-@Primary
 public class ContentBasedFilter implements Filter {
 
     @Override
