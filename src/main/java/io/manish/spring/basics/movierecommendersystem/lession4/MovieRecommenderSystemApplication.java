@@ -1,4 +1,4 @@
-package io.manish.spring.basics.movierecommendersystem.lession3;
+package io.manish.spring.basics.movierecommendersystem.lession4;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

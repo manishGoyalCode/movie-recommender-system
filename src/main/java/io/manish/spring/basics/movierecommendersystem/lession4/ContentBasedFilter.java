@@ -1,6 +1,4 @@
-package io.manish.spring.basics.movierecommendersystem.lession3;
-
-import org.springframework.stereotype.Component;
+package io.manish.spring.basics.movierecommendersystem.lession4;
 
 
 public class ContentBasedFilter implements Filter {
